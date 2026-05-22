@@ -66,7 +66,7 @@ export function AboutPage() {
             </div>
             <div className="bg-gradient-to-br from-primary/10 to-orange-100 rounded-2xl p-8 lg:p-12">
               <img
-                src="/src/public/Genius Tutorial logo.png"
+                src="images/Genius Tutorial logo.png"
                 alt="Genius Tutorial"
                 className="h-64 w-64 mx-auto object-contain"
               />

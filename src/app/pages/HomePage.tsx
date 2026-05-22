@@ -85,7 +85,7 @@ export function HomePage() {
             <div className="relative">
               <div className="relative rounded-2xl bg-white p-8 shadow-xl border border-border">
                 <img
-                  src="/src/public/Genius Tutorial logo.png"
+                  src="images/Genius Tutorial logo.png"
                   alt="Genius Tutorial"
                   className="h-48 w-48 mx-auto object-contain"
                 />

@@ -21,27 +21,27 @@ export function ResultsPage() {
           <div className="space-y-8">
             {/* Poster 1 */}
             <div className="bg-white rounded-xl border-2 border-dashed border-border min-h-[500px] flex items-center justify-center">
-              <img src="/src/public/genius-tutorial-gandhi-nagar-indore-tutorials-ulp1q8symc.avif" alt="Genius Tutorial" className="max-w-full max-h-full" />
+              <img src="images/1.avif" alt="Genius Tutorial" className="max-w-full max-h-full" />
             </div>
 
             {/* Poster 2 */}
             <div className="bg-white rounded-xl border-2 border-dashed border-border min-h-[500px] flex items-center justify-center">
-              <img src="/src/public/genius-tutorial-gandhi-nagar-indore-tutorials-i2dj8hr8v7.avif" alt="Genius Tutorial" className="max-w-full max-h-full" />
+              <img src="images/2.avif" alt="Genius Tutorial" className="max-w-full max-h-full" />
             </div>
 
             {/* Poster 3 */}
             <div className="bg-white rounded-xl border-2 border-dashed border-border min-h-[500px] flex items-center justify-center">
-              <img src="/src/public/genius-tutorial-gandhi-nagar-indore-tutorials-q2ly0nohub.jpg" alt="Genius Tutorial" className="max-w-full max-h-full" />
+              <img src="images/3.jpg" alt="Genius Tutorial" className="max-w-full max-h-full" />
             </div>
 
             {/* Poster 4 */}
             <div className="bg-white rounded-xl border-2 border-dashed border-border min-h-[500px] flex items-center justify-center">
-              <img src="/src/public/genius-tutorial-indore-tutorials-m3may5ioyz.webp" alt="Genius Tutorial" className="max-w-full max-h-full" />
+              <img src="images/4.webp" alt="Genius Tutorial" className="max-w-full max-h-full" />
             </div>
 
             {/* Poster 5 */}
             <div className="bg-white rounded-xl border-2 border-dashed border-border min-h-[500px] flex items-center justify-center">
-              <img src="/src/public/genius-tutorial-indore-tutorials-r5hpqxuk0a.webp" alt="Genius Tutorial" className="max-w-full max-h-full" />
+              <img src="images/5.webp" alt="Genius Tutorial" className="max-w-full max-h-full" />
             </div>
           </div>
         </div>

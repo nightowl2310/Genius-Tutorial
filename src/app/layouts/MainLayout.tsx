@@ -29,7 +29,7 @@ export function MainLayout() {
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3">
               <img
-                src="/src/public/Genius Tutorial logo.png"
+                src="images/Genius Tutorial logo.png"
                 alt="Genius Tutorial"
                 className="h-10 w-10 object-contain"
               />
@@ -120,7 +120,7 @@ export function MainLayout() {
             {/* About */}
             <div className="space-y-4">
               <img
-                src="/src/public/Genius Tutorial logo.png"
+                src="images/Genius Tutorial logo.png"
                 alt="Genius Tutorial"
                 className="h-12 w-12 object-contain"
               />
