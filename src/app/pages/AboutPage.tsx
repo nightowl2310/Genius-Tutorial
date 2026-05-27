@@ -29,8 +29,8 @@ export function AboutPage() {
   ];
 
   const images = [
-  "images/1.avif",
-  "images/2.avif",
+  "images/y.avif",
+  "images/h.avif",
   "images/3.avif",
   "images/4.avif",
   "images/5.avif",
