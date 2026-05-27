@@ -5,15 +5,15 @@ export function FacultyPage() {
     {
       name: "Yashwant Parmar",
       subject: "Physics & Mathematics",
-      qualification: "B.Ed, MCA",
+      qualification: "BCA , BSc MSc , Bed",
       experience: "7-8 years",
       expertise: "Physics, Mathematics, Board Exams",
     },
     {
       name: "Priya Parmar",
       subject: "Administration",
-      qualification: "B.Sc, B.Ed",
-      experience: "7-8 years",
+      qualification: "",
+      experience: "",
       expertise: "Student Management, Reception, Administration",
     },
   ];

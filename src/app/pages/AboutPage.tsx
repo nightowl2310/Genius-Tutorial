@@ -62,7 +62,7 @@ export function AboutPage() {
             <div className="space-y-6">
               <h2 className="text-3xl font-bold">Our Story</h2>
               <p className="text-muted-foreground">
-                Founded by Yashwant Parmar (B.Ed, MCA), Genius Tutorial started in 2019 with
+                Founded by Yashwant Parmar (BCA , BSc MSc , Bed), Genius Tutorial started in 2019 with
                 a vision to provide the best quality education in the Gandhi Nagar region of Indore.
               </p>
               <p className="text-muted-foreground">
