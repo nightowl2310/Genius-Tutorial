@@ -123,10 +123,14 @@ export function DownloadAppPage() {
           <p className="text-white/90 mb-8 text-lg">
             Download the app now and stay connected with your child's education
           </p>
-          <button className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-primary rounded-lg hover:bg-gray-100 transition-colors font-medium text-lg">
-            <Download size={24} />
-            Download APK Now
-          </button>
+          <a
+  href="/Genius Tutorial.apk"
+  download
+  className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-white rounded-lg hover:opacity-90 transition-opacity font-medium text-lg"
+>
+  <Download size={24} />
+  Download APK
+</a>
         </div>
       </section>
     </div>
