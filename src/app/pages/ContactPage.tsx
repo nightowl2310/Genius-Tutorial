@@ -63,7 +63,7 @@ export function ContactPage() {
                   <div>
                     <h3 className="font-semibold mb-1">Email</h3>
                     <p className="text-muted-foreground">
-                      geniusTutorial@gmail.com
+                      yashwantparmar38@gmail.com
                     </p>
                   </div>
                 </div>

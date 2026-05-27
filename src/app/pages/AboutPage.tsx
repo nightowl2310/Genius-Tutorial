@@ -28,6 +28,18 @@ export function AboutPage() {
     },
   ];
 
+  const images = [
+  "images/1.avif",
+  "images/2.avif",
+  "images/3.avif",
+  "images/4.avif",
+  "images/5.avif",
+  "images/6.avif",
+  "images/7.avif",
+  "images/8.avif",
+  "images/9.avif",
+];
+
   return (
     <div>
       {/* Hero Section */}
@@ -125,6 +137,30 @@ export function AboutPage() {
           </div>
         </div>
       </section>
+      <section className="py-20 bg-white">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="  text-center mb-12 ">
+      <h2 className="text-3xl font-bold mb-4">Glimpses</h2>
+    </div>
+
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      {images.map((src, idx) => (
+        <div
+          key={idx}
+          className="relative overflow-hidden rounded-lg bg-gray-50 border border-border"
+        >
+          <img
+            src={src}
+            alt={`Glimpse ${idx + 1}`}
+            className="w-full h-44 sm:h-56 md:h-48 lg:h-56 object-cover transition-transform duration-300 ease-out hover:scale-105"
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
     </div>
   );
 }

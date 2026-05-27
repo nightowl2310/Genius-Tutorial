@@ -69,17 +69,9 @@ export function DownloadAppPage() {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-xl font-bold mb-4">Download the APK File</h3>
-                  <p className="text-muted-foreground mb-6">
-                    Click the "Download APK" button above to download the Genius Tutorial app
-                    installation file to your phone.
-                  </p>
+                  
                   <div className="bg-accent rounded-xl p-6 border border-border">
-                    <p className="text-sm text-muted-foreground text-center">
-                      Screenshot: Download button and notification
-                    </p>
-                    <div className="bg-white rounded-lg p-8 mt-4 border border-border min-h-[200px] flex items-center justify-center">
-                      <p className="text-muted-foreground">Installation Screenshot 1</p>
-                    </div>
+                    <img src="images/install1.png" alt="Installation Step 1" className="mx-auto" />
                   </div>
                 </div>
               </div>
@@ -92,18 +84,9 @@ export function DownloadAppPage() {
                   2
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-bold mb-4">Enable Unknown Sources</h3>
-                  <p className="text-muted-foreground mb-6">
-                    Go to Settings → Security → Enable "Install from Unknown Sources" or
-                    "Allow from this source" when prompted.
-                  </p>
+                  <h3 className="text-xl font-bold mb-4">Install anyway </h3>
                   <div className="bg-accent rounded-xl p-6 border border-border">
-                    <p className="text-sm text-muted-foreground text-center">
-                      Screenshot: Security settings and permission prompt
-                    </p>
-                    <div className="bg-white rounded-lg p-8 mt-4 border border-border min-h-[200px] flex items-center justify-center">
-                      <p className="text-muted-foreground">Installation Screenshot 2</p>
-                    </div>
+                    <img src="images/install2.png" alt="Installation Step 2" className="mx-auto" />
                   </div>
                 </div>
               </div>
@@ -117,17 +100,8 @@ export function DownloadAppPage() {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-xl font-bold mb-4">Install and Open the App</h3>
-                  <p className="text-muted-foreground mb-6">
-                    Open the downloaded APK file, tap "Install", and once installed,
-                    open the app and log in with your credentials.
-                  </p>
                   <div className="bg-accent rounded-xl p-6 border border-border">
-                    <p className="text-sm text-muted-foreground text-center">
-                      Screenshot: Installation progress and app login screen
-                    </p>
-                    <div className="bg-white rounded-lg p-8 mt-4 border border-border min-h-[200px] flex items-center justify-center">
-                      <p className="text-muted-foreground">Installation Screenshot 3</p>
-                    </div>
+                    <img src="images/install3.png" alt="Installation Step 3" className="mx-auto" />
                   </div>
                 </div>
               </div>
