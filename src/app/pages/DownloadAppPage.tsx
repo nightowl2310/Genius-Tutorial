@@ -22,10 +22,14 @@ export function DownloadAppPage() {
               Stay connected with your child's academic progress. Track attendance, view test reports,
               monitor performance, and get personalized mentoring - all in one app.
             </p>
-            <button className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-white rounded-lg hover:opacity-90 transition-opacity font-medium text-lg">
-              <Download size={24} />
-              Download APK
-            </button>
+            <a
+  href="/Genius Tutorial.apk"
+  download
+  className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-white rounded-lg hover:opacity-90 transition-opacity font-medium text-lg"
+>
+  <Download size={24} />
+  Download APK
+</a>
           </div>
         </div>
       </section>
