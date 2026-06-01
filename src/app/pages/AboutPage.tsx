@@ -44,14 +44,16 @@ export function AboutPage() {
     <div>
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-primary/5 via-orange-50 to-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
+            
             <h1 className="text-4xl font-bold mb-6">About Genius Tutorial</h1>
             <p className="text-lg text-muted-foreground">
               Established in 2019, Genius Tutorial has been a beacon of quality education
-              in Gandhi Nagar, Indore, helping thousands of students achieve their academic dreams.
+              in Western Indore, helping thousands of students achieve their academic dreams.
             </p>
-          </div>
+  
+          </div><h1 className="text-2xl text-orange-400 font-semibold mt-8">Join Genius, Become Genius</h1>
         </div>
       </section>
 
@@ -62,8 +64,8 @@ export function AboutPage() {
             <div className="space-y-6">
               <h2 className="text-3xl font-bold">Our Story</h2>
               <p className="text-muted-foreground">
-                Founded by Yashwant Parmar (BCA , BSc MSc , Bed), Genius Tutorial started in 2019 with
-                a vision to provide the best quality education in the Gandhi Nagar region of Indore.
+                Founded by Yashwant Parmar (M.Sc., B.Sc., B.Ed., BCA), Genius Tutorial started in 2019 with
+                a vision to provide the best quality education in Western Indore.
               </p>
               <p className="text-muted-foreground">
                 The coaching institute serves students from Class 6th to 12th, focusing on building
@@ -71,9 +73,7 @@ export function AboutPage() {
                 students, the coaching is still aiming to achieve higher and higher.
               </p>
               <p className="text-muted-foreground">
-                With dedicated faculty, personalized attention, and a student-centric approach,
-                Genius Tutorial has established itself as a trusted name in the Gandhi Nagar area,
-                helping students achieve their academic goals consistently.
+                With dedicated faculty, personalized attention, and a student centric approach, Genius Tutorial has become a trusted destination for students across Western Indore, helping them achieve their academic goals with confidence.
               </p>
             </div>
             <div className="bg-gradient-to-br from-primary/10 to-orange-100 rounded-2xl p-8 lg:p-12">
@@ -123,12 +123,12 @@ export function AboutPage() {
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center p-8 bg-accent rounded-xl border border-border">
-              <div className="text-4xl font-bold text-primary mb-2">7+</div>
+              <div className="text-4xl font-bold text-primary mb-2">13+</div>
               <p className="text-muted-foreground">Years of Excellence</p>
             </div>
             <div className="text-center p-8 bg-accent rounded-xl border border-border">
-              <div className="text-4xl font-bold text-primary mb-2">95%</div>
-              <p className="text-muted-foreground">Success Rate</p>
+              <div className="text-4xl font-bold text-primary mb-2">100+</div>
+              <p className="text-muted-foreground">Batches Completed</p>
             </div>
             <div className="text-center p-8 bg-accent rounded-xl border border-border">
               <div className="text-4xl font-bold text-primary mb-2">2000+</div>

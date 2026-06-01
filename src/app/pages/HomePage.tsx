@@ -26,10 +26,10 @@ export function HomePage() {
   ];
 
   const stats = [
-    { value: "7+", label: "Years Experience" },
+    { value: "13+", label: "Years Experience" },
     { value: "2000+", label: "Students Taught" },
-    { value: "95%", label: "Success Rate" },
-    { value: "50+", label: "Top Rankers" },
+    { value: "50+", label: "Batches Completed" },
+    { value: "50000+", label: "Hours of teaching" },
   ];
 
   const testimonials = [
@@ -62,7 +62,7 @@ export function HomePage() {
                 <span className="text-primary">Genius Tutorial</span>
               </h1>
               <p className="text-lg text-muted-foreground">
-                Premier coaching institute for Class 6th to 12th in Gandhi Nagar, Indore.
+                Premier coaching institute for Class 6th to 12th in Western Indore.
                 Expert faculty, personalized attention, and proven results.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -105,7 +105,7 @@ export function HomePage() {
                     </div>
                     <div>
                       <p className="font-medium">Expert Teachers</p>
-                      <p className="text-sm text-muted-foreground">7+ Years Experience</p>
+                      <p className="text-sm text-muted-foreground">10+ Years Experience</p>
                     </div>
                   </div>
                 </div>

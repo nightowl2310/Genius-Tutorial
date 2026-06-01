@@ -4,14 +4,15 @@ export function FacultyPage() {
   const faculty = [
     {
       name: "Yashwant Parmar",
-      subject: "Physics & Mathematics",
-      qualification: "BCA , BSc MSc , Bed",
-      experience: "7-8 years",
-      expertise: "Physics, Mathematics, Board Exams",
+      Post: "Director & Founder",
+      subject: "Director",
+      qualification: "M.Sc., B.Sc., B.Ed., BCA",
+      experience: "13+ years",
+      expertise: "Physics, Mathematics",
     },
     {
       name: "Priya Parmar",
-      subject: "Administration",
+      Post: "Administrator",
       qualification: "",
       experience: "",
       expertise: "Student Management, Reception, Administration",
@@ -48,7 +49,7 @@ export function FacultyPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg">{teacher.name}</h3>
-                    <p className="text-primary font-medium">{teacher.subject}</p>
+                    <p className="text-primary font-medium">{teacher.Post}</p>
                   </div>
                 </div>
 
@@ -104,7 +105,7 @@ export function FacultyPage() {
               </div>
               <h3 className="font-semibold mb-2">Experienced</h3>
               <p className="text-sm text-muted-foreground">
-                7-8 years of dedicated teaching experience
+                10+ years of dedicated teaching experience
               </p>
             </div>
             <div className="text-center">
