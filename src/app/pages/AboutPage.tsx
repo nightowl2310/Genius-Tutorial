@@ -29,15 +29,13 @@ export function AboutPage() {
   ];
 
   const images = [
-  "images/y.avif",
-  "images/h.avif",
-  "images/3.avif",
-  "images/4.avif",
-  "images/5.avif",
-  "images/6.avif",
-  "images/7.avif",
-  "images/8.avif",
-  "images/9.avif",
+  "images/about/1.jpeg",
+  "images/about/2.jpeg",
+  "images/about/3.jpeg",
+  "images/about/4.jpeg",
+  "images/about/5.jpeg",
+  "images/about/6.jpeg",
+  
 ];
 
   return (

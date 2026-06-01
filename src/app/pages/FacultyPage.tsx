@@ -9,6 +9,7 @@ export function FacultyPage() {
       qualification: "M.Sc., B.Sc., B.Ed., BCA",
       experience: "13+ years",
       expertise: "Physics, Mathematics",
+      image: "images/Yashwant.jpeg",
     },
     {
       name: "Priya Parmar",
@@ -16,6 +17,7 @@ export function FacultyPage() {
       qualification: "",
       experience: "",
       expertise: "Student Management, Reception, Administration",
+      image: "images/Priya.jpeg",
     },
   ];
 
@@ -44,9 +46,15 @@ export function FacultyPage() {
                 className="bg-white rounded-xl p-6 shadow-lg border border-border hover:shadow-xl transition-shadow"
               >
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="h-16 w-16 rounded-full bg-gradient-to-br from-primary to-orange-400 flex items-center justify-center text-white text-xl font-bold">
-                    {teacher.name.split(" ").map((n) => n[0]).join("")}
-                  </div>
+                  {teacher.image ? (
+                    <div className="h-16 w-16 rounded-full border-3 border-orange-500 p-0.5 overflow-hidden">
+                      <img
+                        src={teacher.image}
+                        alt={teacher.name}
+                        className="h-full w-full rounded-full object-cover"
+                      />
+                    </div>
+                  ) : null}
                   <div>
                     <h3 className="font-semibold text-lg">{teacher.name}</h3>
                     <p className="text-primary font-medium">{teacher.Post}</p>
