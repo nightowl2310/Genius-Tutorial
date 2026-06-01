@@ -124,9 +124,9 @@ export function DownloadAppPage() {
             Download the app now and stay connected with your child's education
           </p>
           <a
-  href="/Genius Tutorial.apk"
+  href="/Genius_Tutorial.apk"
   download
-  className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-white rounded-lg hover:opacity-90 transition-opacity font-medium text-lg"
+  className="inline-flex items-center justify-center bg-black  px-8 py-4 text-white rounded-lg hover:opacity-90 transition-opacity font-medium text-lg"
 >
   <Download size={24} />
   Download APK
