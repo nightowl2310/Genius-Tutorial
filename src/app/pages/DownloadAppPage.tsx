@@ -23,7 +23,7 @@ export function DownloadAppPage() {
               monitor performance, and get personalized mentoring - all in one app.
             </p>
             <a
-  href="/Genius Tutorial.apk"
+  href="/Genius_Tutorial.apk"
   download
   className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-white rounded-lg hover:opacity-90 transition-opacity font-medium text-lg"
 >
