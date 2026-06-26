@@ -37,7 +37,7 @@ export function HomePage() {
       name: "Himanshu Dawar",
       class: "Class 12th - JEE",
       score: "99.3%ile",
-      text: "Studied my class 9th to 12th from Genius Tutorial. Got 99.3 Percentile in JEE. Today I am pursuing my engineering from SGSITS.",
+      text: "Studied my Class 9th to 12th from Genius Tutorial, and it played a significant role in shaping my academic journey. The teachers were highly supportive, approachable, and always encouraged us to perform our best. Their consistent guidance and well-planned teaching helped me build strong fundamentals and stay focused throughout my preparation. I secured 99.3 percentile in JEE, and today I am pursuing my engineering from SGSITS. I am truly grateful to the faculty for their dedication and for creating such a motivating learning environment.",
     },
     {
       name: "Avani Tiwari",
