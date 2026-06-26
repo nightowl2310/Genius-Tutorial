@@ -40,10 +40,10 @@ export function HomePage() {
       text: "Studied my class 9th to 12th from Genius Tutorial. Got 99.3 Percentile in JEE. Today I am pursuing my engineering from SGSITS.",
     },
     {
-      name: "Kavyansh Saxena",
-      class: "Class 12th - 2023",
-      score: "80%",
-      text: "Genius Tutorial wasn't just a random coaching centre for me but it shaped the way and approach to study and push more towards academics. Hence I am currently pursuing my engineering from IET DAVV, Indore.",
+      name: "Avani Tiwari",
+      class: "Class 10th (CBSE), 2026",
+      score: "93.6%",
+      text: "I studied here for three years and had a very positive experience. The faculty is knowledgeable, supportive, and always ready to help whenever needed. Yashwant Sir's guidance and constant motivation played an important role in building my confidence and helping me stay consistent in my studies. The overall learning environment was excellent and really encouraged me to reach my full potential.",
     },
   ];
 
